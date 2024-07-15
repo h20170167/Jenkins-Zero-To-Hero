@@ -8,7 +8,7 @@ pipeline {
       steps {
         sh 'mvn --version'
         //sh 'mvn compile'
-        sh 'javac -d .multi-stage-multi-agent/main.java'
+        //sh 'javac -d .multi-stage-multi-agent/main.java'
       }
     }
     stage('Front-end') {
