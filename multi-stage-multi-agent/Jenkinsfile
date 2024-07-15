@@ -8,6 +8,7 @@ pipeline {
       steps {
         sh 'mvn --version'
         //sh 'mvn compile'
+        sh 'javac -d . Main.java'
       }
     }
     stage('Front-end') {
